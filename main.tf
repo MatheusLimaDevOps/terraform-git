@@ -6,7 +6,7 @@ provider "aws" {
 resource "aws_instance" "PUT YOUR NAME" {
   ami = "${var.amis.ubuntu_arm}"
   instance_type = "t4g.small"
-  key_name = "PUT YOUR NAME"
+  key_name = "PUT YOUR KEY_NAME"
 root_block_device {
   volume_type = "gp2"
   volume_size = 30
@@ -28,7 +28,7 @@ EOF
 resource "aws_instance" "PUT YOUR NAME" {
   ami = "${var.amis.ubuntu_arm}"
   instance_type = "t4g.small"
-  key_name = "PUT YOUR NAME"
+  key_name = "PUT YOUR KEY_NAME"
 root_block_device {
   volume_type = "gp2"
   volume_size = 30
@@ -47,7 +47,7 @@ EOF
 resource "aws_instance" "PUT YOUR NAME" {
   ami = "${var.amis.ubuntu_arm}"
   instance_type = "t4g.large"
-  key_name = "PUT YOUR NAME"
+  key_name = "PUT YOUR KEY_NAME"
 root_block_device {
   volume_type = "gp2"
   volume_size = 30
